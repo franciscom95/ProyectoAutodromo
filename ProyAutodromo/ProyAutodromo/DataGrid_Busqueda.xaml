@@ -1,0 +1,22 @@
+﻿<Window x:Class="DataGrid_Busqueda"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyAutodromo" Icon="ferrari.ico"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="Busqueda" Height="312" Width="644">
+    <Grid Margin="0,0,2,-4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="63*"/>
+            <ColumnDefinition Width="10*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" VerticalAlignment="Top" ItemsSource="{Binding Path=TabletInventory}"
+    AutoGenerateColumns="True" Height="219" Width="529" IsEnabled="False"/>
+        <Button x:Name="buttonNuevo" Content="Nuevo" Grid.Column="1" HorizontalAlignment="Left" Margin="2,21,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button_Copy" Content="Modificar" Grid.Column="1" HorizontalAlignment="Left" Margin="2,46,0,0" VerticalAlignment="Top" Width="75"/>
+
+
+    </Grid>
+</Window>

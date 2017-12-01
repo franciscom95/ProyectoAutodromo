@@ -1,0 +1,36 @@
+
+
+ 
+
+osea el de por partida me imagino que se pueda modificar en una neuva pestaña que sea cobros y que ahi
+vengan estas opciones:(lee primero lo de torneo antes de los puntos para que entiendas, espero no 
+confundirte.)
+
+---puntos de cobro-----(todo sera fijo obvio hasta que algun adm modifique aqui algo)
+
+-cobro de partidas(osea cuanto costara una competencia en la pista).
+-% de ganancia del recinto al generar un evento.
+-cobro por torneo(por incsipcion a torneo).
+-la cantidad de partidas por competidor en modo torneo. 
+-cuantas pistas exclusivas para el torneo(recuerda que son 4 pistas entonces si el torneo abarca todas
+ las pistas que no se pueda incribir los competidores que se inscriben por cantidad de partidas).
+-el % que el reciento cobrara del total recaudado por el torneo.
+
+entonces se tiene en cuenta que ya existen tres formas de competencia en el sistema
+
+1-cantidad de comptencias (1,2,3,4.. etc) ---ya existe
+2-evento de establecimiento (cuando ellos decidan activarla, como bonus para beneficiar a los clientes) ---ya existe
+3-torneo mundial (externo en el cual se presta el establecimiento) ----es el nuevo que se busca crear
+
+obviamente en la pestaña de pagos se tiene que modificar donde antes decia torneo se le cambiaria el nombre 
+por el de evento, y se agregaria el de torneo ahi seria el mismo proceso.
+
+otra cosa por agregar seria el sistema de visualisacion de turno de pistas en una pantalla en tiempo
+real, para informacion de los competidores y espectadores. de cada pista.
+
+------------------------Torneo---------------------------------------------------------------------
+
+el sistema de torneo que tenemos esta bien pero nos sirve mas como un sistema "evento de establecimiento",
+entonces queremos agregar algo similar que ahora si nos sirva como torneo solo que es necesario que 
+cuando un competidor se regirstre exista una pestaña que diga torneo y que se desactive la casilla de partidas.
+(explico porque en los puntos de cobros)

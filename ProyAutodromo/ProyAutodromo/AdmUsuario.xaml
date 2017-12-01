@@ -1,0 +1,52 @@
+﻿<Window x:Class="AdmUsuario"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyAutodromo" Icon="ferrari.ico"
+        mc:Ignorable="d"
+        Title="AdmUsuario" Height="380" Width="400">
+
+    <Grid Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="80*"></RowDefinition>
+            <RowDefinition Height="80*"></RowDefinition>
+            <RowDefinition Height="80*"></RowDefinition>
+            <RowDefinition Height="80*"></RowDefinition>
+            <RowDefinition Height="50*"></RowDefinition>
+
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,4">
+            <TextBlock x:Name="lblNombreUsuario" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Nombre del Usuario : " VerticalAlignment="Top"  />
+            <TextBox x:Name="txtNombreUsuario" HorizontalAlignment="Left" Margin="35,16,0,13" RenderTransformOrigin="0.5,0.5" Width="196"  Height="20">
+
+            </TextBox>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,4">
+            <TextBlock x:Name="lblLogin" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Login : " VerticalAlignment="Top"  />
+            <TextBox x:Name="txtlogin" HorizontalAlignment="Center" Margin="107,16,0,13" RenderTransformOrigin="0.5,0.5" Width="196"  Height="20"/>
+        </StackPanel>
+
+
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,0,0,4">
+            <TextBlock x:Name="lblConraseña" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Contraseña : " VerticalAlignment="Top"  />
+            <TextBox x:Name="txtContraseña" HorizontalAlignment="Center" Margin="80,16,0,13" RenderTransformOrigin="0.5,0.5" Width="196"  Height="20"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="0,0,0,4">
+            <TextBlock  HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Tipo Usuario : " VerticalAlignment="Top"  />
+            <CheckBox x:Name="chkesadmin" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="80,0,0,0" >Es Administrador</CheckBox>
+        </StackPanel>
+
+
+        <StackPanel Grid.Row="4" Orientation="Horizontal">
+            <Button  Width="80" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="200,8,0,0" Click="Button_Click">
+                Grabar
+            </Button>
+         
+        </StackPanel>
+
+    </Grid>
+</Window>

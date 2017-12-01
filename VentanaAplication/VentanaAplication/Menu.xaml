@@ -1,0 +1,45 @@
+﻿<Window x:Class="Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VentanaAplication"
+        mc:Ignorable="d" Icon="ferrari.ico"
+        Title="Proxima Salida" Height="299.808" Width="704.671" ResizeMode="NoResize"
+        Loaded="Window_Loaded"
+        >
+    <Grid>
+        <Label FontSize="18" FontStyle="Oblique" Margin="25,0,0,0"/>
+        <Border BorderBrush="Blue" BorderThickness="4" HorizontalAlignment="Left" Height="191" Margin="27,42,0,0" VerticalAlignment="Top" Width="632">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50*"></ColumnDefinition>
+                    <ColumnDefinition Width="50*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Column="0" Height="50">
+                    <StackPanel>
+                        <TextBlock x:Name="competidor1" Text="Competidor Uno" TextAlignment="Center"></TextBlock>
+
+                        <Image Source="BaseDatos/auto_318-104334.jpg" Height="50"></Image>
+                    </StackPanel>
+
+
+
+                </Border>
+                <Border Grid.Column="1" Height="50">
+                    <StackPanel>
+                        <TextBlock x:Name="competidor2" Text="Competidor Dos" TextAlignment="Center"></TextBlock>
+                        <Image Source="BaseDatos/auto_318-104334.jpg" Height="50"></Image>
+                    </StackPanel>
+
+
+                </Border>
+                <Label x:Name="lblPista" Content="Pista: " Width="200"  Grid.ColumnSpan="2" Margin="236,-38,188,187"/>
+            </Grid>
+        </Border>
+    </Grid>
+
+
+
+</Window>
